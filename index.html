@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  
+<!-- Mirrored from bloodycommunity.me/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Feb 2023 10:47:30 GMT -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Bloody Community | Dobrodosli</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/footer_logo.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/odometer.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/meanmenu.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <canvas id="snow"></canvas>
+
+  <body>
+    <!-- preloader -->
+    <div id="preloader">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <img src="img/icon/preloader.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- preloader-end -->
+
+    <!-- header-area -->
+    <header class="third-header-bg">
+      <div class="bg"></div>
+      <div class="container custom-container">
+        <div class="header-top-area t-header-top-area d-none d-lg-block">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="header-top-social">
+                <ul>
+                  <li>Zapratite</li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/bloodyblejica/"
+                      target="_blank"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </li>
+                  <!--li>
+                    <a
+                      href="https://www.facebook.com/groups/4852858868085486/?ref=share_group_link"
+                      target="_blank"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </!--li-->
+                  <li>
+                    <a href="https://discord.gg/HrW93W9G5b" target="_blank"
+                      ><i class="fab fa-discord"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="header-top-login">
+                <ul>
+                  <li>
+                    <a href="steam://connect/185.119.91.252:27024"
+                      ><i class="far fa-edit"></i>Play</a
+                    >
+                  </li>
+                  <li class="or">&</li>
+                  <li>
+                    <a href="https://discord.gg/HrW93W9G5b" target="_blank"
+                      ><i class="far fa-edit"></i>Discord</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sticky-header">
+        <div class="container custom-container">
+          <div class="row">
+            <div class="col-12">
+              <div class="main-menu menu-style-two">
+                <nav>
+                  <div class="logo d-block d-lg-none">
+                    <a href="index-2.html"
+                      ><img src="img/logo/h3_logo2.png" alt="Logo"
+                    /></a>
+                  </div>
+                  <div class="navbar-wrap d-none d-lg-flex">
+                    <ul class="left">
+                      <li class="show">
+                        <a href="index-2.html">Pocetna</a>
+                        <!--ul class="submenu">
+                          <li><a href="index-2.html">Home One</a></li>
+                          <li class="active">
+                            <a href="index-3.html">Home Two</a>
+                          </li>
+                          <li><a href="index-4.html">Home Three</a></li>
+                          <li><a href="index.html">Home Four</a></li>
+                        </!--ul-->
+                      </li>
+                      <li><a href="#about">O Nama</a></li>
+                      <li><a href="#servers">Pregled servera</a></li>
+                      <li><a href="#" onclick="ban_user()">Banovi</a>
+                      </li>
+                    </ul>
+                    <div class="logo">
+                      <a href="index-2.html"
+                        ><img src="img/logo/h3_logo2.png" alt="Logo" class="logo-img"
+                      /></a>
+                    </div>
+                    <ul class="right">
+                      <li>
+                        <a href="#">Informacije</a>
+                        <ul class="submenu">
+                          <li>
+                            <!--a href="upcoming-games.html"></!--a-->
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.gametracker.rs/server_info/185.119.91.252:27024/"
+                              target="_blank"
+                              >GameTracker</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#shop">Shop</a></li>
+                      <li>
+                        <a href="#owners">Vlasnici</a>
+                      </li>
+                      <li>
+                        <a href="#">Kontakt</a>
+                        <ul class="submenu">
+                          <li><a href="#contact">Posalji Poruku</a></li>
+                          <li>
+                            <a
+                              href="https://discord.gg/bloodycs"
+                              target="_blank"
+                              >Discord</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="header-action">
+                    <ul>
+                      <li class="header-search">
+                        <a
+                          href="#"
+                          data-toggle="modal"
+                          data-target="#search-modal"
+                          ><i class="fas fa-search"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="mobile-menu-wrap d-block d-lg-none">
+                <nav>
+                  <div id="mobile-menu" class="navbar-wrap">
+                    <ul>
+                      <li class="show">
+                        <a href="index-2.html">Pocetna</a>
+                        <!--ul class="submenu">
+                          <li><a href="index-2.html">Home One</a></li>
+                          <li class="active">
+                            <a href="index-3.html">Home Two</a>
+                          </li>
+                          <li><a href="index-4.html">Home Three</a></li>
+                          <li><a href="index.html">Home Four</a></li>
+                        </!--ul-->
+                      </li>
+                      <li><a href="#about">O Nama</a></li>
+                      <li><a href="#servers">Pregled servera</a></li>
+                      <li>
+                        <a href="#" target="_blank"
+                          >Banovi</a
+                        >
+                      </li>
+                    </ul>
+                    <!--div class="logo">
+                      <a href="index.html"
+                        ><img src="img/logo/h3_logo.png" alt="Logo"
+                      /></a>
+                    </!--div-->
+                    <ul class="right">
+                      <li>
+                        <a href="#">Informacije</a>
+                        <ul class="submenu">
+                          <li>
+                            <!--a href="upcoming-games.html"></!--a-->
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.gametracker.rs/server_info/185.119.91.252:27024/"
+                              target="_blank"
+                              >GameTracker</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#shop">Shop</a></li>
+                      <li>
+                        <a href="#owners">Vlasnici</a>
+                      </li>
+                      <li>
+                        <a href="#">Kontakt</a>
+                        <ul class="submenu">
+                          <li><a href="#contact">Posalji Poruku</a></li>
+                          <li>
+                            <a
+                              href="https://discord.gg/HrW93W9G5b"
+                              target="_blank"
+                              >Discord</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="header-action">
+                    <ul>
+                      <li class="header-search">
+                        <a
+                          href="#"
+                          data-toggle="modal"
+                          data-target="#search-modal"
+                          ><i class="fas fa-search"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="mobile-menu"></div>
+            </div>
+            <!-- Modal Search -->
+            <div
+              class="modal fade"
+              id="search-modal"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <form>
+                    <input type="text" placeholder="Search here..." />
+                    <button><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom-bg"></div>
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main-area -->
+    <main>
+      <!-- slider-area -->
+      <section class="third-banner-bg">
+        <div class="container custom-container">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="third-banner-img wow bounceInDown"
+                data-wow-delay=".2s"
+              >
+              </div>
+              <div
+                class="third-banner-content text-center wow bounceInUp"
+                data-wow-delay=".2s"
+              >
+                <h2>Bloody<span>Gaming</span></h2>
+                <h6>csgo gaming community</h6>
+                <a
+                  href="steam://connect/185.119.91.252:27024"
+                  class="btn rotated-btn"
+                  >Zaigraj odma</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- slider-area-end -->
+
+      <!-- third-about-area -->
+      <section class="third-about-area third-about-bg pt-120 pb-90" id="about">
+        <div class="container custom-container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 order-0 order-lg-2">
+              <div class="third-about-img text-right position-relative">
+                <img
+                  src="img/images/fourth_about_img.png"
+                  class="main-img"
+                  alt=""
+                />
+                <img
+                  src="img/images/third_about_img_shadow.png"
+                  class="shadow"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="third-about-content">
+                <div class="third-title-style">
+                  <h2>Bloody<span> Community</span></h2>
+                  <div class="inner">
+                    <h2>Kako je sve pocelo?</h2>
+                    <h6 class="vertical-title">BLOODY</h6>
+                    <p>
+                      Bloody Community je gaming zajednica koja vam pruza igranje na serveru Mirage only koji ima 128Tick naravno to ne bi bilo moguce bez jako ljubaznih vlasnika i admina Bloody Community je poceo tako sto je Vlasnica Majda dobila ideju za CS:GO server i zeljela je da postigne na neki nacin dobru gaming zajednicu pridruzite nam se i vi i hvala vam ako ste barem jednom usli na server nadamo se da cete uzivati.
+                    </p>
+                  </div>
+                  <a
+                    href="https://discord.gg/bloodycs"
+                    target="_blank"
+                    class="btn rotated-btn"
+                    >Discord</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="see-my-info-wrap pt-110">
+            <div class="row">
+              <div class="col-12">
+                <div class="third-section-title text-center mb-75">
+                  <h2>Statistika <span>nase</span> Zajednice</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-xl-4 col-lg-6 col-sm-8">
+                <div class="my-info-box mb-30">
+                  <div class="my-info-box-top">
+                    <h6>Nase nagrade</h6>
+                    <img
+                      src="img/bg/my_info_box_hover.png"
+                      alt=""
+                      class="info-box-top-hover"
+                    />
+                  </div>
+                  <div class="my-info-box-content">
+                    <div class="mt-award">
+                      <img src="img/images/about_award.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-sm-8">
+                <div class="my-info-box mb-30">
+                  <div class="my-info-box-top">
+                    <h6>Nase Mreze</h6>
+                    <img
+                      src="img/bg/my_info_box_hover.png"
+                      alt=""
+                      class="info-box-top-hover"
+                    />
+                  </div>
+                  <div class="my-info-box-content">
+                    <div class="my-info-social">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://steamcommunity.com/groups/Bloody_Community"
+                            target="_blank"
+                            ><i class="fab fa-steam-symbol"></i> STEAM</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://discord.gg/bloodycs"
+                            target="_blank"
+                            ><i class="fab fa-discord"></i> Discord</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.instagram.com/bloody_community_"
+                            target="_blank"
+                            ><i class="fab fa-instagram"></i> Insta</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-sm-8">
+                <div class="my-info-box mb-30">
+                  <div class="my-info-box-top">
+                    <h6>Prosek Igraca</h6>
+                    <img
+                      src="img/bg/my_info_box_hover.png"
+                      alt=""
+                      class="info-box-top-hover"
+                    />
+                  </div>
+                  <div class="my-info-box-content">
+                    <div class="my-clan-wrap">
+                      <div class="clan-logo">
+                        <img src="img/images/clan_logo.png" alt="" />
+                      </div>
+                      <div class="my-clan-info">
+                        <h4><span>20+</span> Igraca</h4>
+                        <span>Dnevno Igraca</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- third-about-area-end -->
+
+      <!-- game-gallery-area -->
+      <!--div class="game-gallery-area position-relative">
+        <div class="game-gallery-bg"></div>
+        <div class="container-fluid p-0 fix">
+          <div class="row game-gallery-active">
+            <div class="col-12">
+              <div class="game-gallery-item">
+                <img src="img/images/game_gallery_cz2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="game-gallery-item">
+                <img src="img/images/game_gallery_cz1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="game-gallery-item">
+                <img src="img/images/game_gallery_cz3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="game-gallery-item">
+                <img src="img/images/game_gallery_cz4.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-nav"></div>
+      </!--div>
+      <!-- game-gallery-area-end -->
+
+      <!-- my-match-area -->
+      <section class="my-match-area my-match-bg pb-120" id="servers">
+        <div class="container custom-container">
+          <div class="row">
+            <div class="col-12">
+              <div class="third-section-title text-center mb-75">
+                <h2>Posetite <span>nase</span> Servere</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="my-match-wrap">
+                <div
+                  class="my-match-box-wrap wow fadeInDown"
+                  data-wow-delay=".2s"
+                >
+                  <img
+                    src="img/bg/my_match_box.png"
+                    alt=""
+                    class="match-box-bg"
+                  />
+                  <ul>
+                    <li>
+                      <div class="my-match-team">
+                        <div class="team-one">
+                          <a href="#"
+                            ><img src="img/logo/e-logo.png" alt=""
+                          /></a>
+                        </div>
+                        <!--div class="vs">
+                          <img src="img/team/match_vs02.png" alt="" />
+                        </div>
+                        <div-- class="team-one">
+                          <a href="#"
+                            ><img src="img/team/my_match_clan02.png" alt=""
+                          /></a>
+                        </div-->
+                      </div>
+                    </li>
+                    <li>
+                      <div class="my-match-info">
+                        <a
+                          href="steam://connect/185.119.91.252:27024"
+                          class="live-btn"
+                          >Balkan Server</a
+                        >
+                        <h5>Bloody | !ws !knife !gloves</h5>
+                        <span>IP: 185.119.91.252:27024</span>
+                      </div>
+                    </li>
+                    <li>
+                      <a
+                        href="steam://connect/185.119.91.252:27024"
+                        class="watch-stream"
+                        ><i class="fas fa-podcast"></i> Zaigraj odma</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- my-match-area-end -->
+
+      <!-- donation-area -->
+      <section class="donation-area donation-bg fix pt-65" id="shop">
+        <div class="container custom-container">
+          <div class="donation-wrap">
+            <div class="row align-items-center">
+              <div class="col-xl-6 col-lg-7">
+                <div class="donation-content">
+                  <div class="third-title-style">
+                    <h2>Blo<span>ody</span></h2>
+                    <div class="inner">
+                      <h2>Podrzite nas</h2>
+                      <h6 class="vertical-title">donacije</h6>
+                      <p>
+                        U svakom trenutku mozete podrzati nas server tako sto
+                        cete zakupiti neki od rankova na nasem serveru ili samo
+                        donirati kao znak podrske.
+                      </p>
+                    </div>
+                    <a
+                      href="https://discord.gg/bloodycs"
+                      target="_blank"
+                      class="btn rotated-btn"
+                      >Doniraj sada</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-5">
+                <div class="donation-img text-center">
+                  <
+                  <!--img src="img/images/dontaion_img2.png" alt="" /-->
+                  <!--img src="img/slider/fourth_banner_img.png" alt="" /-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- donation-area-end -->
+
+      <!-- team-area -->
+      <section class="team-area team-bg" id="owners">
+        <div class="container custom-container">
+          <div class="row">
+            <div class="col-12">
+              <div class="third-section-title text-center mb-60">
+                <h2>UPOZNAJTE <span>NASE</span> VLASNIKE</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+              <div class="third-team-item text-center mb-30">
+                <div class="third-team-img">
+                  <img src="img/slider/agent_1.png" alt="" />
+                </div>
+                <div class="third-team-content">
+                  <div class="main-bg"></div>
+                  <div class="hover-bg"></div>
+                  <h5>
+                    <a
+                      href="https://discord.gg/HrW93W9G5b"
+                      target="_blank"
+                      >Majdaa</a
+                    >
+                  </h5>
+                  <span>Vlasnica Communitya</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+              <div class="third-team-item text-center mb-30">
+                <div class="third-team-img">
+                  <img src="img/slider/agent_1.png" alt="" />
+                </div>
+                <div class="third-team-content">
+                  <div class="main-bg"></div>
+                  <div class="hover-bg"></div>
+                  <h5>
+                    <a
+                      href="https://discord.gg/HrW93W9G5b"
+                      target="_blank"
+                      >Dinoo</a
+                    >
+                  </h5>
+                  <span>Su - Vlasnik Community</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+              <div class="third-team-item text-center mb-30">
+                <div class="third-team-img">
+                  <img src="img/slider/agent_1.png" alt="" />
+                </div>
+                <div class="third-team-content">
+                  <div class="main-bg"></div>
+                  <div class="hover-bg"></div>
+                  <h5>
+                    <a
+                      href="https://discord.gg/HrW93W9G5b"
+                      target="_blank"
+                      >Sarajlija</a
+                    >
+                  </h5>
+                  <span>Su - Vlasnik Community</span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- team-area-end -->
+
+      <!-- contact-area -->
+      <section class="contact-area third-contact-bg" id="contact">
+        <div class="container custom-container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="third-contact-wrap">
+                <div class="third-title-style">
+                  <h2>Zaigrajte<span> kod nas</span></h2>
+                  <div class="inner">
+                    <h2>Zaigraj odma</h2>
+                    <h6 class="vertical-title">Zaigraj</h6>
+                    <ul>
+                      <li><span>Nasa Lokacija :</span> Srbija</li>
+                      <li><span>IP Servera : 185.119.91.252:27024</span></li>
+                    </ul>
+                  </div>
+                  <a
+                    href="steam://connect/185.119.91.252:27024"
+                    class="btn rotated-btn"
+                    >Zaigraj</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="third-contact-wrap">
+                <div class="third-title-style">
+                  <h2>Za<span> vise</span> Informacija</h2>
+                  <div class="inner">
+                    <h2>Posaljite Poruku</h2>
+                    <!--h6 class="vertical-title">POSETI</!--h6-->
+                    <!--ul>
+                      <li><span>Discord :</span> https://discord.gg/aGCeQvCv</li>
+                      <li><span>Instagram :</span> @bloody_community_</li>
+                    </!--ul-->
+                  </div>
+                  <a
+                    href="https://discord.gg/bloodycs"
+                    class="btn rotated-btn"
+                    >Discord</a
+                  >
+                  <a
+                    href="https://www.instagram.com/bloodyblejica/"
+                    class="btn rotated-btn"
+                    >Instagram</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!--div class="col-lg-6">
+              <form action="#" class="third-contact-form">
+                <div class="row">
+                  <h1 class="form__title" id="wb-text">Posalji Poruku</h1>
+                </div>
+                <textarea
+                  name="message"
+                  class="form__input"
+                  id="content"
+                  placeholder="Vasa Poruka"
+                ></textarea>
+                <button class="btn rotated-btn" id="wb-text">Posalji</button>
+              </form>
+            </!--div-->
+          </div>
+        </div>
+      </section>
+      <!-- contact-area-end -->
+
+      <!-- brand-area -->
+      <!--div class="brand-area t-brand-bg">
+        <div class="container custom-container">
+          <div class="row s-brand-active">
+            <div class="col-12">
+              <div class="t-brand-item">
+                <img src="img/brand/t_brand_logo01.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="t-brand-item">
+                <img src="img/brand/t_brand_logo02.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="t-brand-item">
+                <img src="img/brand/t_brand_logo03.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="t-brand-item">
+                <img src="img/brand/t_brand_logo04.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="t-brand-item">
+                <img src="img/brand/t_brand_logo05.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="t-brand-item">
+                <img src="img/brand/t_brand_logo03.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </!--div-->
+      <!-- brand-area-end -->
+    </main>
+    <!-- main-area-end -->
+
+    <!-- footer-area -->
+    <footer>
+      <div class="footer-top footer-bg third-footer-bg">
+        <div class="container custom-container">
+          <div class="row justify-content-between">
+            <div class="col-lg-6">
+              <div class="footer-widget mb-50">
+                <div class="logo mb-35">
+                  <a href="index-2.html"
+                    ><img src="img/logo/footer_logo.png" alt="" class="logo-img1"
+                  /></a>
+                </div>
+                <div class="fw-text">
+                  <p>
+                    Bloody Community je gaming zajednica koja vam pruza igranje na serveru Mirage only koji ima 128Tick naravno to ne bi bilo moguce bez jako ljubaznih vlasnika i admina Bloody Community je poceo tako sto je Vlasnica Majda dobila ideju za CS:GO server i zeljela je da postigne na neki nacin dobru gaming zajednicu pridruzite nam se i vi i hvala vam ako ste barem jednom usli na server nadamo se da cete uzivati.
+                  </p>
+                  <div class="fw-social">
+                    <ul>
+                      <!--li>
+                        <a
+                          href="#"
+                          target="_blank"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                      </!--li-->
+                      <li>
+                        <a
+                          href="https://www.instagram.com/bloody_community_"
+                          target="_blank"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="https://discord.gg/HrW93W9G5b" target="_blank"
+                          ><i class="fab fa-discord"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-5">
+              <div class="footer-widget text-right mb-50">
+                <div class="fw-title mb-35">
+                  <h3>Quick <span>Link</span></h3>
+                </div>
+                <div class="fw-quick-link">
+                  <ul>
+                    <li><a href="#">Pocetna</a></li>
+                    <li><a href="#">O Nama</a></li>
+                    <li><a href="#">Pregled Servera</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-wrap third-copyright-wrap">
+        <div class="container custom-container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="copyright-text">
+                <p>
+                  Copyright © 2022 - 2023
+                  <a href="https://www.facebook.com/djoxaa" target="_blank"
+                    >Djolee Djox</a
+                  >
+                  All Rights Reserved.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 d-none d-md-block">
+              <div class="payment-method-img text-right">
+                <img src="img/images/card_img.png" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-area-end -->
+
+    <!-- JS here -->
+    <script src="js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script src="js/jquery.odometer.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/snowflakes.js"></script>
+    <script src="../code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $("#Submit").click(function (e) {
+          var url = $("#url").val();
+          var content = $("#content").val();
+          $.post(url, { content: content }, function () {
+            document.getElementById("wb-text").innerHTML =
+              "Poruka poslata na Discord.";
+            document.getElementById("form").style.display = "none";
+            setTimeout(() => document.location.reload(), 5000);
+          });
+        });
+      });
+    </script>
+    <script>
+      function ban_user(){
+          alert('Ova opcija ce uskoro biti dostupna!')
+      }
+  </script>
+  </body>
+
+<!-- Mirrored from bloodycommunity.me/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Feb 2023 10:47:42 GMT -->
+</html>
